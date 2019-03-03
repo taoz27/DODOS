@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/tool_bar_layout"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.taoz27.demo.sheetmusicdemo.sheet.Piano
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/piano"/>
+        <com.taoz27.demo.sheetmusicdemo.sheet.SheetMusic
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/piano"
+            android:id="@+id/sheet"
+            android:layout_above="@+id/player"/>
+        <com.taoz27.demo.sheetmusicdemo.sheet.MidiPlayer
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/player"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

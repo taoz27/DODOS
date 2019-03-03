@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/record1"
+
+        android:text="Play Song 1"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play1"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="26dp"/>
+
+    <Button
+        android:id="@+id/record2"
+        android:text="Play Song 2"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp" />
+
+    <Button
+        android:id="@+id/record3"
+        android:text="Play Song 3"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp" />
+
+    <Button
+        android:id="@+id/record4"
+        android:text="Play Song 4"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play4"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/record5"
+        android:text="Play Song 5"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play5"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="45dp"/>
+
+    <Button
+        android:id="@+id/record6"
+        android:text="Play Song 6"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play6"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#FFDD00"
+
+        android:textAlignment="center"
+        android:text="MY SONGS"
+        android:layout_marginLeft="179dp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/back"
+        android:gravity="center_vertical"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:layout_gravity="left"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_back"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:text="DoDo音乐"/>
+</android.support.v7.widget.Toolbar>
